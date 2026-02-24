@@ -7,7 +7,7 @@ import os
 TOKEN = "8629584902:AAEuAPMIW6V0eTaRRxxwvmWT7EMbGl3r3zU"
 ADMIN_ID = 7156406347   # 👉 तुझा numeric Telegram ID
 ADMIN_USERNAME = "Taskman96"  # @ नको
-FREE_CHANNEL_LINK = "https://t.me/ViralMMS966"
+FREE_CHANNEL_LINK = "https://t.me/viral_video_mms_96"
 PRICE = "₹30"
 # ============================================
 
@@ -96,3 +96,4 @@ def broadcast(message):
 # ---------- RUN ----------
 print("🔥 Bot Running Successfully 🔥")
 bot.infinity_polling()
+
