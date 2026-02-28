@@ -8,7 +8,7 @@ TOKEN = "8629584902:AAEuAPMIW6V0eTaRRxxwvmWT7EMbGl3r3zU"
 ADMIN_ID = 7156406347
 ADMIN_USERNAME = "Taskman96"
 
-FREE_CHANNEL_LINK = "https://t.me/viral_video_mms_96"
+FREE_CHANNEL_LINK = "https://t.me/+GFi7yL9PNqhlN2I1"
 PREMIUM_CHANNEL_LINK = "https://t.me/+WIBBIo-JaMljZjM1"
 
 PRICE = "₹30"
@@ -189,3 +189,4 @@ def broadcast(message):
 # ---------- RUN ----------
 print("🔥 Bot Running Successfully 🔥")
 bot.infinity_polling()
+
