@@ -71,7 +71,8 @@ def premium(call):
 
     markup = InlineKeyboardMarkup()
     markup.add(
-        
+        InlineKeyboardButton("📩 Contact Admin", url=f"https://t.me/{ADMIN_USERNAME}"
+    (                                
 
     if os.path.exists(QR_FILE):
         with open(QR_FILE, "rb") as photo:
@@ -96,7 +97,7 @@ def screenshot_handler(message):
     users = load_users()
     user = next((u for u in users if u["id"] == user_id), None)
 
-    if user and user["premium"]:
+if user and user["premim"]:
         bot.send_message(user_id, "✅ You already have premium access.")
         return
 
@@ -187,6 +188,7 @@ def broadcast(message):
 # ---------- RUN ----------
 print("🔥 Bot Running Successfully 🔥")
 bot.infinity_polling()
+
 
 
 
