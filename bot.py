@@ -71,8 +71,8 @@ def premium(call):
 
     markup = InlineKeyboardMarkup()
     markup.add(
-        InlineKeyboardButton("📩 Contact Admin", url=f"https://t.me/{ADMIN_USERNAME}"
-    (                                
+        InlineKeyboardButton("📩 Contact Admin", url=f"https://t.me/{ADMIN_USERNAME}")
+    )
 
     if os.path.exists(QR_FILE):
         with open(QR_FILE, "rb") as photo:
@@ -188,6 +188,7 @@ def broadcast(message):
 # ---------- RUN ----------
 print("🔥 Bot Running Successfully 🔥")
 bot.infinity_polling()
+
 
 
 
