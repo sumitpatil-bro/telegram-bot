@@ -4,7 +4,7 @@ import json
 import os
 
 # ================= SETTINGS =================
-TOKEN = "YOUR_BOT_TOKEN"
+TOKEN = "8629584902:AAEuAPMIW6V0eTaRRxxwvmWT7EMbGl3r3zU"
 ADMIN_ID = 7156406347
 ADMIN_USERNAME = "Taskman96"
 
@@ -152,3 +152,4 @@ def admin_decision(call):
 # ---------- RUN ----------
 print("🔥 Bot Running Successfully 🔥")
 bot.infinity_polling()
+
