@@ -3,6 +3,21 @@ from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 import json
 import os
 
+# 🔥 ADD THIS (Flask part)
+from flask import Flask
+import threading
+
+app_web = Flask(__name__)
+
+@app_web.route('/')
+def home():
+    return "Bot is running"
+
+def run_web():
+    app_web.run(host="0.0.0.0", port=10000)
+
+threading.Thread(target=run_web).start()
+
 # ================= SETTINGS =================
 TOKEN = "8629584902:AAEuAPMIW6V0eTaRRxxwvmWT7EMbGl3r3zU"
 ADMIN_ID = 7156406347
